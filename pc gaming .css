@@ -1,0 +1,22 @@
+*{
+	margin:0;
+	padding:  0;
+}
+.khoi{
+	width: 100%;
+	height: auto;
+	background-color: white;
+}
+#d1{
+	font-size: 30px;
+}
+#d2{
+	font-size: 25px;
+}
+#footer{
+            background-color:#ccc;
+            text-align:center;
+            padding:40px;
+            font-size:18px;
+            margin-bottom: 0%;
+        }

@@ -1,0 +1,225 @@
+html, body { 
+ margin: 0; 
+ padding: 0; 
+ font-family: 'Helvetica', 'Arial'; /* initial fonts */
+}
+#top-bar { 
+ width: 100%; 
+ background: #F1F1F1; /* light gray */ 
+ border-bottom: 1px solid #D4D4D4; /* dark gray "underline" */ 
+ height: 25px;
+}
+.normal-wrapper { 
+ width: 100%; 
+ margin: 0 auto; 
+ padding: 15px 0px; 
+ background: brown; 
+ overflow: auto;
+}
+.logo-icon { 
+ color: #000000; 
+ font-size: 60pt; 
+ float: left;
+}
+h1 { 
+ float: left; 
+ margin: 21px 0 0 25px;
+}
+#navbar { 
+ list-style-type: none; /* remove bullet points */ 
+ margin: 29px 0 0 0; 
+ padding: 0; float: right; 
+ font-size: 16pt;
+}
+#navbar li { 
+ display: inline; /* make items horizontal */
+}
+#navbar li a:link, #navbar li a:visited, #navbar li a:active { 
+ text-decoration: none; /* remove underline */ 
+ color: #000000; 
+ padding: 0 16px 0 10px; /* space links apart */ 
+ margin: 0; 
+ border-right: 2px solid #B4B4B4; /* divider */
+}
+#navbar li a:link.last-link { 
+ /* remove divider */ 
+ border-right: 0px;
+}
+#navbar li a:hover { 
+ /* change color on hover (mouseover) */ 
+ color: #ffffff;
+}
+#top-color-splash { 
+ width: 100%; 
+ height: 4px; 
+ background: #EB6361;
+}
+
+
+
+* {
+  box-sizing:border-box
+}
+h2 {
+  text-align: center;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  display: inline;
+}
+/* Ẩn các slider */
+.mySlides {
+    display: none;
+}
+
+ 
+/* định dạng các chấm chuyển đổi các slide */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+/* khi được hover, active đổi màu nền */
+.active, .dot:hover {
+  background-color: #717171;
+}
+ 
+/* Thêm hiệu ứng khi chuyển đổi các slide */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+ 
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+ 
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.classifieds-container > span {
+    display: block;
+    font-size: 20px;
+    color: #212121;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 10px auto 10px 0px;
+}
+.classifieds-container > .classifieds-list-container {
+    display: flex;
+    flex-flow: wrap;
+}
+.classifieds-container > .classifieds-list-container > .classifieds-preview {
+    width: 23.5%;
+    background: #fff;
+    color: #757575;
+    border-radius: 2px;
+    box-shadow: 2px 3px 4.7px 0.3px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    margin: 20px auto;
+}
+.classifieds-container > .classifieds-list-container > .classifieds-preview:nth-child(4n+1) {
+    margin-left: 0;
+}
+.classifieds-container > .classifieds-list-container > .classifieds-preview:nth-child(4n) {
+    margin-right: 0;
+}
+.classifieds-container > .classifieds-list-container > .classifieds-preview > .classifieds-preview-image {
+    width: 100%;
+    height: 230px;
+    background-size: cover;
+}
+.classifieds-container > .classifieds-list-container > .classifieds-preview > .classifieds-preview-information {
+    padding: 20px;
+}
+.classifieds-container > .classifieds-list-container > .classifieds-preview > .classifieds-preview-information > span {
+    display: block;
+}
+.classifieds-container > .classifieds-list-container > .classifieds-preview > .classifieds-preview-information > .classifieds-preview-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #212121;
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding-bottom: 04px;
+    cursor: pointer;
+    transition: all .2s ease-in;
+}
+.classifieds-container > .classifieds-list-container > .classifieds-preview > .classifieds-preview-information > .classifieds-preview-title:hover {
+    text-decoration: underline;
+}
+.classifieds-container > .classifieds-list-container > .classifieds-preview > .classifieds-preview-information > .classifieds-preview-subtitle {
+    font-size: 15px;
+    font-weight: 400;
+    color: #6e6e6e;
+    line-height: 1.2;
+    padding-bottom: 12px;
+    cursor: pointer;
+    transition: all .2s ease-in;
+}
+.classifieds-container > .classifieds-list-container > .classifieds-preview > .classifieds-preview-information > .classifieds-preview-price {
+    text-align: right;
+    font-size: 20px;
+    line-height: 1;
+    color: #009688 !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+}
+.vid1{
+	margin-left:  0	%;
+	width: 100%	; 
+}
+.snip1325 {
+  position: relative;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 255px;
+  max-width: 315px;
+  height: 220px;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  display: block;
+}
+.snip1325 img {
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  -webkit-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+}
+.snip1325:hover img,
+.snip1325.hover img {
+  -webkit-transform: translateX(130px);
+  transform: translateX(130px);
+}
+.p{
+	margin-bottom: 15px;
+
+}
+
+#footer{
+            background-color:#ccc;
+            text-align:center;
+            padding:40px;
+            font-size:18px;
+            margin-bottom: 0%;
+            width: 100%;
+        }
+.clear{
+	clear: both;
+}
+
